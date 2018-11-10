@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Download Video and Audio from YouTube</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Download Video and Audio from YouTube</h1>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Input</h3>
+      <form class="form-inline" action="#">
+      <input type="text" class="form-control" name="get-url" required/>
+      <button class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="col-sm-6">
+      <h3>Output</h3>
+      <div class="container">
+        <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#video">Video</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#audio">Audio</a>
+    </li>
+  </ul>
+
+<!-- Tab panes -->
+  <div class="tab-content">
+    <div id="video" class="tab-pane active">
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Resolution</th>
+        <th>FileSize</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td><button class="btn btn-success">Download</button></td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td><button class="btn btn-success">Download</button></td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td><button class="btn btn-success">Download</button></td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+    <div id="audio" class="tab-pane fade">
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Resolution</th>
+        <th>FileSize</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>bala</td>
+        <td>Doe</td>
+        <td><button class="btn btn-success">Download</button></td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td><button class="btn btn-success">Download</button></td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td><button class="btn btn-success">Download</button></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

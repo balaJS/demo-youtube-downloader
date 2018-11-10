@@ -1,0 +1,41 @@
+npm ERR! Linux 4.15.0-36-generic
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! youtube-downloader@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the youtube-downloader@0.1.0 start script 'react-scripts start'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the youtube-downloader package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     react-scripts start
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs youtube-downloader
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls youtube-downloader
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /opt/lampp/htdocs/projects/js/react/youtube-downloader/npm-debug.
+
+/*** After fix duplicate module ***/
+
+npm ERR! Linux 4.15.0-36-generic
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "bugs" "demo-youtube-downloader"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code E404
+
+npm ERR! 404 Not found : demo-youtube-downloader
+npm ERR! 404 
+npm ERR! 404  'demo-youtube-downloader' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /opt/lampp/htdocs/projects/js/react/demo-youtube-downloader/npm-debug.log
