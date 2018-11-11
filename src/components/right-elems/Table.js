@@ -26,11 +26,6 @@ class Table extends Component {
             <td>Moe</td>
             <td><button className="btn btn-success">Download</button></td>
           </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td><button className="btn btn-success">Download</button></td>
-          </tr>
         </tbody>
       </table>);
 
